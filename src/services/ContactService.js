@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export class ContactService {
-  static serverURL = `https://contact-note-backend.herokuapp.com/`;
+  static serverURL = `https://contact-note-backend.herokuapp.com`;
 
   static getGroups() {
     let dataURL = `${this.serverURL}/groups`;
